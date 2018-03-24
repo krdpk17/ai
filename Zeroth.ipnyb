@@ -31,5 +31,5 @@ batch_size = 256
 data_gen = get_batch(mnist.train, batch_size)
 steps_per_epoch = mnist.train.num_examples//batch_size
 
-#model.fit_generator(data_gen, steps_per_epoch, epochs=10)
-#model.evaluate_generator(test_gen, steps_per_epoch)
+model.fit_generator(data_gen, steps_per_epoch, epochs=10)
+model.evaluate_generator(test_gen, steps_per_epoch)
