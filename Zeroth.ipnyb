@@ -1,4 +1,5 @@
 # https://keras.io/
+#Example of neural networks using sequential
 !pip install -q keras
 import keras
 
